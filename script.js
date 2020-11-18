@@ -35,7 +35,7 @@ function displayResult()
 {
     document.querySelector(".pitanja").style.display="none";
     document.querySelector("#pitanje").style.display="none";
-    document.querySelector(".rezultat").innerHTML=`<div class="pitanja" style="margin: 50px;">Tacno ste odgovorili ${score} od ${pitanja.length} odgovora.</div>`;
+    document.querySelector(".rezultat").innerHTML=`<div class="pitanja" style="margin: 50px;">Tačno ste odgovorili ${score} od ${pitanja.length} odgovora.</div>`;
     document.querySelector(".rezultat").style.display="block";
     score=0;
     

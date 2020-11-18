@@ -1,7 +1,7 @@
 let pitanja=[
         {
                   //Unijeti pitanje
-                p:"koliko cores imaju i5 procesori prije 8 generacije?",  
+                p:"Koliko fizičkih jezgri imaju i5 procesori prije 8. generacije?",  
                 o:[
                         //Unijeti odgovore
                         "1 core",       //o1   (redni broj tacnog odgovora)                                  
@@ -12,7 +12,7 @@ let pitanja=[
                 ],
                 to:"o2"                //unijeti redni broj tacnog odgoora                                    
         },{
-                p:"Koliko cores imaju i5 procesori poslije 8 gen?",
+                p:"Koliko fizičkih jezgri imaju i5 procesori poslije 8. generacije?",
                 o:[
                         "2 core",
                          "4 core",
@@ -21,7 +21,7 @@ let pitanja=[
                 ],
                 to:"o2"
         },{
-                p:"Koji ram se koristi za 3gen intel procesora?",
+                p:"Koja RAM memorija se koristi za 3. generaciju Intel procesora?",
                 o: [
                         "ddr1",
                          "ddr2",
@@ -30,21 +30,21 @@ let pitanja=[
                 ],
                 to:"o3"
         },{
-                p:"koliko rama je dovoljno za normalan rad danasnjice?",
+                p:"Koliko RAM-a je dovoljno za normalan rad računara u današnjem vremenu?",
                 o:[
-                        "2gb",
-                         "4gb",
-                         "8gb",
-                         "16gb",
+                        "2GB",
+                         "4GB",
+                         "8GB",
+                         "16GB",
                 ],
                 to:"o3"
         },{
-                p:"Koje graficke su najbolje za gaming?",
+                p:"Koje grafičke kartice su najbolje za gaming?",
                 o:[
-                        "intel HD",
-                        "ryzen vega",
-                        "nvidia geforce",
-                        "amd gpus",
+                        "Intel HD",
+                        "Ryzen Vega",
+                        "Nvidia GeForce",
+                        "AMD",
                 ],
                 to:"o3"
             }];
