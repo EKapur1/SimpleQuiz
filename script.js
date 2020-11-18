@@ -1,36 +1,15 @@
-
-
-
-
-
 let trenutno=0
-// function addPitanje(){
-    //     let p1=pitanja[trenutno];
-    //     document.getElementById("pitanje").innerText=p1.p;
-    //     document.getElementById("aText").innerText=p1.o1;
-    //     document.getElementById("bText").innerText=p1.o2;
-    //     document.getElementById("cText").innerText=p1.o3;
-    //     document.getElementById("dText").innerText=p1.o4;
-    //     uncheck();
-    // }
-    
-{/*          <div class="pitanje">
-                <input class="p" id="a" type="radio" value="o1" name="odgovor">
-                <label class="odg" id="aText"for="a">a</label>
-            </div> */}
-
-    function addPitanje(){
-        let p1=pitanja[trenutno];
-        let prikaz=document.querySelector(".pitanja");
-        prikaz.innerHTML=p1.p;
-        for (let i = 0; i < p1.o.length; i++) {
-            prikaz.innerHTML+=`
-            </br><input class="p" id="a${i}" type="radio" value="o${i+1}" name="odgovor">
-            <label class="odg" id="aText"for="a${i}">${p1.o[i]}</label>
-            `
-        }
+function addPitanje(){
+    let p1=pitanja[trenutno];
+    let prikaz=document.querySelector(".pitanja");
+    prikaz.innerHTML=p1.p;
+    for (let i = 0; i < p1.o.length; i++) {
+        prikaz.innerHTML+=`
+        </br><input class="p" id="a${i}" type="radio" value="o${i+1}" name="odgovor">
+        <label class="odg" id="aText"for="a${i}">${p1.o[i]}</label>
+        `
     }
-
+}
 let odgovor=document.getElementsByName('odgovor');
 function uncheck()
 {
@@ -40,15 +19,6 @@ function uncheck()
     }
 }
 let score=0;
-// function ifChecked()
-// {
-//   for(let i=0;i<odgovor.length;i++)
-//   {
-//       if(odgovor[i].checked)
-//       return true;
-//   }
-//   return false;
-// }
 function provjera(){
 for(let i=0;i<odgovor.length;i++)
 {
@@ -94,6 +64,3 @@ document.getElementById("dalje").addEventListener('click', function(){
             }
         
     })
-
-
-

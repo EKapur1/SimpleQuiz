@@ -48,5 +48,3 @@ let pitanja=[
                 ],
                 to:"o3"
             }];
-    
-            
